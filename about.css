@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: skyblue;
+}
+
+h1 {
+    padding: 0.5em;
+    border: 2px dashed blue;
+    margin: 0.5em;
+    font-size: 1.5rem;
+    outline: 5px double red;
+    outline-offset: 2.5px;
+    outline-color: purple;
+    color: purple;
+}
+
+p {
+    text-align: justify;
+    margin: 0.5em;
+    border: 5px #007AF3;
+    border-style: double;
+}
+
+span {
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+span:hover {
+    opacity: 0.4;
+}
+
+a {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+
+a:visited {
+    color: rgba(88, 6, 61, 0.541);
+}
+
+a:hover {
+    color: hsla(300, 48%, 45%, 0.815);
+}
+
+a:active {
+    color: blue;    
+    border: 2px solid brown;
+    background-color: dodgerblue;
+}
+
+a:focus {
+    color: whitesmoke
+}
